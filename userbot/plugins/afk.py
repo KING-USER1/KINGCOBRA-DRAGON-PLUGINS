@@ -8,10 +8,10 @@ from telethon import events
 from telethon.tl import functions, types
 from userbot import CMD_HELP
 from userbot import ALIVE_NAME, mafiaversion
-from mafiabot.utils import admin_cmd, edit_or_reply
+from dragonbot import admin_cmd, edit_or_reply
 from userbot.cmdhelp import CmdHelp
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Dragon User"
 
 mafia = bot.uid
 
@@ -60,7 +60,7 @@ async def set_not_afk(event):
                 event.chat_id,
                 "Please set `PRIVATE_GROUP_BOT_API_ID` "
                 + "for the proper functioning of afk functionality "
-                + "Ask in @mafiaBot_Official_Chat to get help setting this value\n\n `{}`".format(str(e)),
+                + "Ask in @EAGLEUSERBOT_SUPPORT to get help setting this value\n\n `{}`".format(str(e)),
                 reply_to=event.message.id,
                 silent=True,
             )
