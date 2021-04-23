@@ -2,7 +2,7 @@ from telethon.sessions import StringSession
 from telethon.sync import TelegramClient
 
 print("")
-print("""Welcome To MafiaBot String Session\nGenerator By KING-USER1\n\n""")
+print("""Welcome To DragonBot String Session\nGenerator By KING-USER1\n\n""")
 print("""Special Thanks To My Buddy Respective HellBot\nOwner @Kraken_The_BadASS\n\n""")
 print("""Enter Your Valid Details To Continue!\n\n """)
 
