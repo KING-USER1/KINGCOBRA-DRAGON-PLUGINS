@@ -5,7 +5,7 @@
 <h1 align="center">⚡ DRAGON 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ⚡</h1>
 
 
-[![MAFIA LOGO](https://telegra.ph/file/b61486075c6ef73dd0d12.jpg)](https://t.me/MafiaBot_Support)
+[![DRAGON LOGO](https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg)](https://t.me/EAGLE_USERBOT)
 
 
 <h2 align="center">The owner would not be responsible for any kind of bans due to the bot.</h2>
@@ -23,7 +23,7 @@
 
 <a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FH1M4N5HU0P%2FMAFIA-BOT&template=https%3A%2F%2Fgithub.com%2FH1M4N5HU0P%2FMAFIA-BOT" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
 
-<h2 align="center"> <a href="https://github.com/H1M4N5HU0P/MAFIABOT">⚡ 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 ⚡</a></h2>
+<h2 align="center"> <a href="https://github.com/KING-USER1/KIMGCOBRA-DRAGON-PLUGINS">⚡ 𝚃𝙷𝙴 DRAGON ⚡</a></h2>
 
 </details>
 
@@ -42,12 +42,12 @@
 
 ```
 Get help regarding setting up 
-your MAFIABOT in our official 
+your DRAGONBOT in our official 
 support Group and get updates
 notifications in Update Channel.
 ```
 
-<a href="https://t.me/MafiaBot_Support"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/EAGLE_USERBOT"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 
 </details>
 
@@ -58,14 +58,14 @@ notifications in Update Channel.
 
 - Termux
     - Clone this repository.
-    - Then Do  `cd MAFIA-USERBOT`
+    - Then Do  `cd KINGCOBRA-DRAGON-PLUGINS
     - Run String Generator By
            `bash string.sh`
     - Then Fill The Required Details.
     - API ID, API HASH, PHONE NUMBER (WITH COUNTRY CODE)
  
 - Repl Run
-    - Click [Here](https://replit.com/@H1M4N5HU0P/MAFIABOT#main.py) to open Repl run.
+    - Click [Here](https://replit.com/@H1M4N5HU0P/DRAGON#main.py) to open Repl run.
     - Click On Green Play Button.
     - Wait for a while then fill the details.
     - String will be saved in your Saved Message.
@@ -108,7 +108,7 @@ notifications in Update Channel.
 
 Copyright (C) 2021 H1M4N5HU0P
 
-Poject [𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃](https://github.com/H1M4N5HU0P/MAFIABOT) is free software: you can redistribute it and/or modify
+Poject [DRAGONBOT](https://github.com/KING-USER1/DRAGON-USERBOT) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
