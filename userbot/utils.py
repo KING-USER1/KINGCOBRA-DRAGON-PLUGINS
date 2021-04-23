@@ -61,12 +61,12 @@ def load_module(shortname):
         sys.modules["uniborg.util"] = userbot.utils
         mod.Config = Config
         mod.borg = bot
-        mod.mafiabot = bot
+        mod.dragonbot = bot
         mod.edit_or_reply = edit_or_reply
         mod.delete_mafia = delete_mafia
-        # support for mafiabot originals
-        sys.modules["mafiabot.utils"] = userbot.utils
-        sys.modules["mafiabot"] = userbot
+        # support for dragonbot originals
+        sys.modules["dragonbot.utils"] = userbot.utils
+        sys.modules["dragonbot"] = userbot
         # support for paperplaneextended
         sys.modules["userbot.events"] = userbot.utils
         spec.loader.exec_module(mod)
