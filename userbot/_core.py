@@ -10,8 +10,8 @@ from userbot import *
 from userbot import bot as mafiabot
 
 DELETE_TIMEOUT = 5
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
-mafia_logo = "./H1M4N5HU0P/mafiabot_logo.jpg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Dragon User"
+mafia_logo = "./KING-USER1/dragonbot_logo.jpg"
 h1m4n5hu0p = mafiabot.uid
 mafia = f"[{DEFAULTUSER}](tg://user?id={h1m4n5hu0p})"
 
@@ -23,7 +23,7 @@ async def send(event):
     message_id = event.message.id
     thumb = mafia_logo
     input_str = event.pattern_match.group(1)
-    omk = f"**⍟ Plugin name ≈** `{input_str}`\n**⍟ Uploaded by ≈** {mafia}\n\n⚡ **[LEGENDARY AF MAFIABOT](t.me/MafiaBot_Support)** ⚡"
+    omk = f"**⍟ Plugin name ≈** `{input_str}`\n**⍟ Uploaded by ≈** {mafia}\n\n⚡ **[LEGENDARY AF DRAGONBOT](https://t.me/EAGLE_USERBOT)** ⚡"
     the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         lauda = await event.client.send_file(
@@ -80,8 +80,8 @@ async def install(event):
             await event.edit(f"**Failed to Install** \n`Error`\n{str(e)}")
             return os.remove(downloaded_file_name)
     
-@mafiabot.on(admin_cmd(pattern=r"uninstall (?P<shortname>\w+)", outgoing=True))
-@mafiabot.on(sudo_cmd(pattern=r"uninstall (?P<shortname>\w+)", allow_sudo=True))
+@dragonbot.on(admin_cmd(pattern=r"uninstall (?P<shortname>\w+)", outgoing=True))
+@dragonbot.on(sudo_cmd(pattern=r"uninstall (?P<shortname>\w+)", allow_sudo=True))
 async def uninstall(h1m4n5hu0p):
     if h1m4n5hu0p.fwd_from:
         return
@@ -111,8 +111,8 @@ async def unload(event):
         )
 
 
-@mafiabot.on(admin_cmd(pattern=r"load (?P<shortname>\w+)$"))
-@mafiabot.on(sudo_cmd(pattern=r"load (?P<shortname>\w+)$", allow_sudo=True))
+@dragonbot.on(admin_cmd(pattern=r"load (?P<shortname>\w+)$"))
+@dragonbot.on(sudo_cmd(pattern=r"load (?P<shortname>\w+)$", allow_sudo=True))
 async def load(event):
     if event.fwd_from:
         return
@@ -140,5 +140,5 @@ CmdHelp("core").add_command(
 ).add_command(
   "send", "<file name>", "Sends the given file from your userbot server, if any.", "send alive"
 ).add_command(
-  "cmds", None, "Gives out the list of modules in mafiabot."
+  "cmds", None, "Gives out the list of modules in dragonbot."
 ).add()
