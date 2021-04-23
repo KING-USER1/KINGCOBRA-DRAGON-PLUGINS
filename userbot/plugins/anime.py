@@ -18,7 +18,7 @@ async def nope(cobra):
             )
             return
 
-    troll = await bot.inline_query("animedb_bot", f"{(deEmojify(mafia))}")
+    troll = await bot.inline_query("animedb_bot", f"{(deEmojify(cobra))}")
 
     await troll[0].click(
         cobra.chat_id,
