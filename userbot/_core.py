@@ -7,13 +7,13 @@ from telethon import functions, types
 from telethon.tl.types import InputMessagesFilterDocument
 from mafiabot.utils import *
 from userbot import *
-from userbot import bot as mafiabot
+from userbot import bot as dragonbot
 
 DELETE_TIMEOUT = 5
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Dragon User"
 mafia_logo = "./KING-USER1/dragonbot_logo.jpg"
 h1m4n5hu0p = mafiabot.uid
-mafia = f"[{DEFAULTUSER}](tg://user?id={h1m4n5hu0p})"
+mafia = f"[{DEFAULTUSER}](tg://user?id={COBRA})"
 
 @mafiabot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
 @mafiabot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
