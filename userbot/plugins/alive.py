@@ -3,7 +3,7 @@
 # animation Idea by @NOOB_GUY_OP (Sipakisking) && @Hell boy_pikachu
 # Made by @ROMANTIC_KILLER...and thanks to @Crackexy for the logos...
 # Kang with credits else gay...
-# Porting in Mafia Userbot by @H1M4N5HU0P
+# 
 
 import asyncio
 import random
@@ -14,7 +14,7 @@ from mafiabot.utils import admin_cmd, sudo_cmd
 from telethon.tl.types import ChannelParticipantsAdmins
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DRAGON"
 
 # Thanks to Sipak bro and Raganork.. 
 # animation Idea by @NOOB_GUY_OP (Sipakisking)
@@ -33,30 +33,30 @@ mafia = bot.uid
 
 edit_time = 10
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4"
-file2 = "https://telegra.ph/file/d938d8f4ecaf2d6e70d31.mp4"
-file3 = "https://telegra.ph/file/52e33f519c5b932082298.mp4"
-file4 = "https://telegra.ph/file/16f20e53ebab4474b7ea3.jpg"
+file1 = "https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg"
+file2 = "https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg"
+file3 = "https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg"
+file4 = "https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = "  __**🔥🔥𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋 𝕀𝕊 𝔸𝕃𝕀𝕍𝔼🔥🔥**__\n\n"
+pm_caption = "  __**🔥🔥DRAGONBOT 𝕀𝕊 𝔸𝕃𝕀𝕍𝔼🔥🔥**__\n\n"
 
 pm_caption += (
-    f"                 👑𝕄𝔸𝕊𝕋𝔼ℝ👑\n**  『😈[{DEFAULTUSER}](tg://user?id={mafia})😈』**\n\n"
+    f"                 👑𝕄𝔸𝕊𝕋𝔼ℝ👑\n**  『😈[{DEFAULTUSER}](tg://user?id={dragon})😈』**\n\n"
 )
 
 pm_caption += "🛡️TELETHON🛡️ : `1.15.0` \n\n"
 
-pm_caption += f"😈𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋😈 : `{mafiaversion}`\n\n"
+pm_caption += f"😈DRAGON😈 : `{dragonversion}`\n\n"
 
 pm_caption += f"😱SUDO😱            : `{sudou}`\n\n"
 
-pm_caption += "😇CHANNEL😇️   : [ᴊᴏɪɴ](https://t.me/MafiaBot_Support)\n\n"
+pm_caption += "😇CHANNEL😇️   : [ᴊᴏɪɴ](https://t.me/EAGLE_USERBOT)\n\n"
 
-pm_caption += "😎CREATOR😎    : [Himanshu](https://t.me/H1M4N5HU0P)\n\n"
+pm_caption += "😎CREATOR😎    : [BAAPu](https://t.me/devil_boy_96)\n\n"
 
 pm_caption += "🤩SUPPORTER🤩    :[HellBoy](https://t.me/kraken_the_badass)\n\n"
 
-pm_caption += "      [🔥REPO🔥](https://github.com/H1M4N5HU0P/MAFIA-BOT) 🔹 [📜License📜](https://github.com/H1M4N5HU0P/MAFIA-BOT/blob/main/LICENSE)"
+pm_caption += "      [🔥REPO🔥](https://github.com/KING-USER1/DRAGON-UBSEROT) 🔹 [📜License📜](https://github.com/KING-USER1/DRAGON-USERBOT/blob/main/LICENSE)"
 
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
