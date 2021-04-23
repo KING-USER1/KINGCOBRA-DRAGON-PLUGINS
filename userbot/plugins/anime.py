@@ -9,8 +9,8 @@ from dragonbot.helpers.functions import deEmojify
 @bot.on(admin_cmd(pattern="anime(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="anime(?: |$)(.*)", allow_sudo=True))
 async def nope(cobra):
-    mafia = cobra.pattern_match.group(1)
-    if not mafia:
+    dragon = cobra.pattern_match.group(1)
+    if not dragon :
         if cobra.is_reply:
             (await cobra.get_reply_message()).message
         else:
