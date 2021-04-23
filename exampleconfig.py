@@ -9,7 +9,7 @@ class Development(Config):
 
   # the name to display in your alive message.
   # If not filled anything then default value is Mafia User.
-  ALIVE_NAME = "Mafia User"
+  ALIVE_NAME = "Dragon User"
 
   # create any PostgreSQL database.
   # I recommend to use elephantsql and paste that link here
