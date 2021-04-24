@@ -1,4 +1,4 @@
-# Ascii module by @h1m4n5hu0p_the_badass for @hellbot_official
+# A
 # A over powerful bot
 # I know u will kang...
 # GTFO!! MOTHERFUCKER!!!!!!!!!!!
@@ -11,7 +11,7 @@ from userbot import ALIVE_NAME, CMD_HELP
 from mafiabot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot.cmdhelp import CmdHelp
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Dragon User"
 
 USERID = bot.uid
 
