@@ -14,7 +14,7 @@ from mafiabot.utils import admin_cmd, sudo_cmd
 from telethon.tl.types import ChannelParticipantsAdmins
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DRAGON"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "GHOULS OP"
 
 # Thanks to Sipak bro and Raganork.. 
 # animation Idea by @NOOB_GUY_OP (Sipakisking)
@@ -33,12 +33,12 @@ mafia = bot.uid
 
 edit_time = 10
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg"
-file2 = "https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg"
-file3 = "https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg"
-file4 = "https://telegra.ph/file/56bd2d22f7ac2220d288b.jpg"
+file1 = "https://telegra.ph/file/8af96ae4128e766ba6ac7.jpg"
+file2 = "https://telegra.ph/file/8af96ae4128e766ba6ac7.jpg"
+file3 = "https://telegra.ph/file/8af96ae4128e766ba6ac7.jpg"
+file4 = "https://telegra.ph/file/8af96ae4128e766ba6ac7.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = "  __**🔥🔥DRAGONBOT 𝕀𝕊 𝔸𝕃𝕀𝕍𝔼🔥🔥**__\n\n"
+pm_caption = "  __**🔥🔥GHOULS BOT 𝕀𝕊 𝔸𝕃𝕀𝕍𝔼🔥🔥**__\n\n"
 
 pm_caption += (
     f"                 👑𝕄𝔸𝕊𝕋𝔼ℝ👑\n**  『😈[{DEFAULTUSER}](tg://user?id={dragon})😈』**\n\n"
@@ -50,13 +50,13 @@ pm_caption += f"😈DRAGON😈 : `{dragonversion}`\n\n"
 
 pm_caption += f"😱SUDO😱            : `{sudou}`\n\n"
 
-pm_caption += "😇CHANNEL😇️   : [ᴊᴏɪɴ](https://t.me/EAGLE_USERBOT)\n\n"
+pm_caption += "😇CHANNEL😇️   : [ᴊᴏɪɴ](https://t.me/GHOULS_USER_BOT)\n\n"
 
-pm_caption += "😎CREATOR😎    : [BAAPu](https://t.me/devil_boy_96)\n\n"
+pm_caption += "😎CREATOR😎    : [BAAPu](https://t.me/KING_COBRA_TERABAAP)\n\n"
 
 pm_caption += "🤩SUPPORTER🤩    :[HellBoy](https://t.me/kraken_the_badass)\n\n"
 
-pm_caption += "      [🔥REPO🔥](https://github.com/KING-USER1/DRAGON-UBSEROT) 🔹 [📜License📜](https://github.com/KING-USER1/DRAGON-USERBOT/blob/main/LICENSE)"
+pm_caption += "      [🔥REPO🔥](https://github.com/KING-USER1/GHOULS_USERBOT) 🔹 [📜License📜](https://github.com/KING-USER1/GHOULS_USERBOT/blob/main/LICENSE)"
 
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
